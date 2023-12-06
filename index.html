@@ -9,10 +9,32 @@
         #inicio{
             background-color: blue;
             position: relative;
-            right:-300px;
-            
+            padding:50px;
+            font-size:100px;
+            border: 10px solid black;
+            margin:12px;
         }
-
+        #cinza{
+            background-color:gray;
+            margin:12px;
+            border:12px solid black;
+        }
+        #verde{
+            background-color:green;
+            margin:12px;
+            border:10px solid black;
+        }
+        #direita{
+            position:absolute;
+           right:50px;
+           font-size:150px;
+        }
+        #creditos{
+            background-color: aqua;
+            border:10px solid black;
+            margin:12px;
+            font-size:40px;
+        }
 
     </style>
 </head>
@@ -21,7 +43,10 @@
         Clique aqui para a segunda demonstração!
     </a>
     <hr>
+    <div>
    <h1 id="inicio">Demonstração de carros</h1> 
+   </div>
+   <div id="cinza">
     <table border="2">
     <th>Opções</th>
         <tr>
@@ -58,13 +83,22 @@
             <td>7  <b>Unidades</b></td>
         </tr>
     </table>
+</div>
+    <div id="creditos">
     <ol>
-        <li>Menu</li>
+      <a href="">  <li>Menu</li>
         <li>Contato</li>
-        <li>Créditos</li>
+        <li>Créditos</li></a>
     </ol>
+    </div>
     <br>
+    <div id="verde">
+        <div id="direita">
+            Grátis!
+        </div>
     <h1>Estacionamento gratuito!</h1>
-    <img src="estacionamento.png">
+    <img src="estacionamento.png" width="1000">
+    </div>
+  
 </body>
 </html>
