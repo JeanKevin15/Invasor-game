@@ -6,7 +6,7 @@
     <title>Carros</title>
     <style type="text/css">
         
-        #segundo{
+        .segundo{
             color:aqua;
         }
 
@@ -14,95 +14,120 @@
             background:black;
         }
 
-        #inicio{
+        .inicio{
             text-align: center;
             background-color: red;
             position: relative;
             padding:50px;
             font-size:100px;
-            border: 10px solid black;
+            border: 10px solid aqua;
             margin:12px;
         }
-        #cinza{
+        .cinza{
             background-color:gray;
             margin:12px;
-            border:12px solid black;
+            border:12px solid aqua;
         }
-        #verde{
+        .verde{
             background-color:gray;
             margin:12px;
-            border:10px solid black;
+            border:10px solid aqua;
         }
-        #direita{
+        .direita{
             position:absolute;
            right:50px;
            font-size:150px;
         }
-        #creditos{
+        .creditos{
             background-color: gray;
-            border:10px solid black;
+            border:10px solid aqua;
             margin:12px;
             font-size:40px;
+        }
+        .linha2{
+            border:10px solid aqua;
+            background:gray;
+            margin:12px;
+        }
+        .centro{
+            text-align:center;
         }
         
     </style>
 </head>
 <body>
     <a href="seguimento.html">
-        <h1 id="segundo">Clique aqui para a segunda demonstração!</h1>
+        <h1 class="segundo">Clique aqui para a segunda demonstração!</h1>
     </a>
     <hr>
     <div>
-   <h1 id="inicio">Feirão de carros</h1> 
+   <h1 class="inicio">Feirão de carros</h1> 
    </div>
-   <div id="cinza">
+   <div class="cinza">
     <table border="2">
     <th>Opções</th>
         <tr>
           <td>
-          <h1>Ferrari</h1><img src="Ferrari.jpg" width="400">
+          <h1 class="centro">Ferrari</h1><img src="Ferrari.jpg" width="400">
           </td>
           <td>
-            <h1>Corsa</h1><img src="Corsa.png" width="400">
+            <h1 class="centro">Corsa</h1><img src="Corsa.png" width="400">
           </td>
           <td>
-            <h1>Porsche</h1><img src="Porsche.png" width="400">
+            <h1 class="centro">Porsche</h1><img src="Porsche.png" width="350">
           </td>
           <td>
-            <h1>Fiat Uno Ciao</h1><img src="Fiat.png" width="400">
+            <h1 class="centro">Fiat Uno Ciao</h1><img src="Fiat.png" width="400">
           </td>
 
         </tr>
-        <td>
-            R$34,000.00
+        <td class="centro">
+            R$ 5.890.000
         </td>
-        <td>
-            R$26,000.00
+        <td class="centro">
+            R$ 34.900.00
         </td>
-        <td>
-            R$100,000.00
+        <td class="centro">
+            R$ 1.165.000
         </td>
-        <td>
-            R$56,000.00
+        <td class="centro">
+            R$ 55.000.00
         </td>
         <tr>
-            <td>15 <b>Unidades</b></td>
-            <td>29 <b>Unidades</b></td>
-            <td>36 <b>Unidades</b></td>
-            <td>7  <b>Unidades</b></td>
+            <td class="centro">15 <b>Unidades</b></td>
+            <td class="centro">29 <b>Unidades</b></td>
+            <td class="centro">36 <b>Unidades</b></td>
+            <td class="centro">7  <b>Unidades</b></td>
         </tr>
     </table>
 </div>
 
     <br>
-    <div id="verde">
-        <div id="direita">
-            Grátis!
-        </div>
-    <h1>Estacionamento gratuito!</h1>
-    <img src="estacionamento.png" width="1000">
-    </div>  
-    <div id="creditos">
+<div class="linha2">
+    <table border="2">
+        <tr>
+            
+            <td><h1 class="centro">Zafira</h1><img src="zafira.png" width="400"></td>
+            <td><h1 class="centro">Camaro</h1><img src="camarô.png" width="500"></td>
+            <td><h1 class="centro">Gol</h1><img src="gol.png" width="500"></td>
+            <td><h1 class="centro">HB20</h1><img src="hb20.png"width="420"></td>
+        </tr>
+        <tr>
+        <td class="centro">R$ 44.990.00</td>
+        <td class="centro">R$ 518.800.00</td>
+        <td class="centro">R$75.490.00</td>
+        <td class="centro">R$ 82.290.00</td>
+    </tr>
+    <tr>
+        <td class="centro"><strong>37 unidades</strong></td>
+        <td class="centro"><strong>25 unidades</strong></td>
+        <td class="centro"><strong>13 unidades</strong></td>
+        <td class="centro"><strong>11 unidades</strong></td>
+    </tr>
+    </table>
+</div>
+
+    <div class="creditos">
         <ol>
           <a href="">  <li>Menu</li>
             <li>Contato</li>
